@@ -146,33 +146,42 @@ A estrutura de arquivos foi organizada para demonstrar profissionalismo e boas p
 ### 6.1. Keylogger em Ação
 
 1.  **Execução do Script:** O terminal mostra o script em modo de escuta e a confirmação de conexão SMTP.
-    ![Execução do Keylogger](./assets/demo_keylogger_1.png)
+    ![Execução do Keylogger]
+    <img src="./assets/demo_keylogger_1.png" width="200" alt="img 1">  ()
 
 2.  **Geração do Log Local:** O arquivo `log.txt` é preenchido com as teclas capturadas.
-    ![Log local do Keylogger](./assets/demo_keylogger_2.png)
+    ![Log local do Keylogger]
+    <img src="./assets/demo_keylogger_2.png" width="200" alt="img 1">
 
 3.  **Exfiltração por E-mail:** O e-mail de "ataque" chega na caixa de entrada do destinatário.
-    ![E-mail de exfiltração](./assets/demo_keylogger_3.png)
+    ![E-mail de exfiltração]
+    <img src="./assets/demo_keylogger_3.png" width="200" alt="img 1">
 
 ### 6.2. Ransomware em Ação
 
 1.  **Arquivos Originais:** A pasta `arquivosDesafios` antes do ataque.
-    ![Arquivos originais](./assets/demo_ransomware_1.png)
+    ![Arquivos originais]
+    <img src="./assets/demo_ransomware_1.png" width="200" alt="img 1">
 
 2.  **Execução do `encrypt`:** O script confirma a geração da chave e a criptografia.
-    ![Execução do script encrypt](./assets/demo_ransomware_2.png)
+    ![Execução do script encrypt]
+    <img src="./assets/demo_ransomware_2.png" width="200" alt="img 1">
 
 3.  **Arquivos Criptografados:** Os arquivos `.txt` agora estão com conteúdo ilegível.
-    ![Arquivos criptografados](./assets/demo_ransomware_3.png)
+    ![Arquivos criptografados]
+    <img src="./assets/demo_ransomware_3.png" width="200" alt="img 1">
 
 4.  **Nota de Resgate:** O arquivo `LEIA_ME_RESGATE.txt` é criado na pasta.
-    ![Nota de resgate](./assets/demo_ransomware_4.png)
+    ![Nota de resgate]
+    <img src="./assets/demo_ransomware_4.png" width="200" alt="img 1">
 
 5.  **Execução do `decrypt`:** O script de "resgate" é executado usando a `mykey.key`.
-    ![Execução do script decrypt](./assets/demo_ransomware_5.png)
+    ![Execução do script decrypt]
+    <img src="./assets/demo_ransomware_5.png" width="200" alt="img 1">
 
 6.  **Arquivos Recuperados:** Os arquivos na pasta `arquivosDesafios` voltam ao estado original.
-    ![Arquivos recuperados](./assets/demo_ransomware_6.png)
+    ![Arquivos recuperados]
+    <img src="./assets/demo_ransomware_6.png" width="200" alt="img 1">
 
 
 ## 7. 🛡️ Análise Didática: A Mentalidade de Defesa (Blue Team)
