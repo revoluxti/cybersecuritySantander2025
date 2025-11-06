@@ -7,7 +7,7 @@
 <p align="center">
   <strong>Projeto Prático: Simulação Educacional de Ransomware e Keylogger</strong>
   <br>
-  Desenvolvido por: <strong>Revoluxti (Seu Nome)</strong>
+  Desenvolvido por: <strong>Revoluxti (LUCAS DE OLIVEIRA SANTOS)</strong>
 </p>
 
 <p align="center">
