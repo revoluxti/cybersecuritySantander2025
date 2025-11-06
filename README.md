@@ -64,7 +64,6 @@ O foco principal não está no ataque (Red Team), mas na **documentação** e **
 
 A estrutura de arquivos foi organizada para demonstrar profissionalismo e boas práticas de desenvolvimento seguro, separando código, assets, segredos e arquivos de teste.
 
-
 ## 4. Tecnologias Utilizadas
 
 * **Python 3.10+**
@@ -120,7 +119,6 @@ A estrutura de arquivos foi organizada para demonstrar profissionalismo e boas p
     ```
 
 6.  **Executar as Simulações:**
-
     * **Para rodar o Keylogger:**
         ```bash
         python malware_sim.py keylogger
@@ -141,47 +139,38 @@ A estrutura de arquivos foi organizada para demonstrar profissionalismo e boas p
 
 ## 6. Demonstração (Capturas de Tela)
 
-> 💡 **Instrução:** Substitua os caminhos `[CAMINHO-DA-IMAGEM]` abaixo pelos caminhos reais das suas imagens. Recomendo criar uma pasta `assets` (como no exemplo) e colocar todas as imagens lá.
+> 💡 **Instrução:** Verifique se os caminhos abaixo (ex: `./assets/demo_keylogger_1.png`) estão corretos e correspondem aos nomes dos seus arquivos.
 
 ### 6.1. Keylogger em Ação
 
 1.  **Execução do Script:** O terminal mostra o script em modo de escuta e a confirmação de conexão SMTP.
-    ![Execução do Keylogger]
-    <img src="./assets/demo_keylogger_1.png" width="200" alt="img 1">  ()
+    <img src="./assets/demo_keylogger_1.png" width="200" alt="Execução do Keylogger">
 
 2.  **Geração do Log Local:** O arquivo `log.txt` é preenchido com as teclas capturadas.
-    ![Log local do Keylogger]
-    <img src="./assets/demo_keylogger_2.png" width="200" alt="img 1">
+    <img src="./assets/demo_keylogger_2.png" width="200" alt="Log local do Keylogger">
 
 3.  **Exfiltração por E-mail:** O e-mail de "ataque" chega na caixa de entrada do destinatário.
-    ![E-mail de exfiltração]
-    <img src="./assets/demo_keylogger_3.png" width="200" alt="img 1">
+    <img src="./assets/demo_keylogger_3.png" width="200" alt="E-mail de exfiltração">
 
 ### 6.2. Ransomware em Ação
 
 1.  **Arquivos Originais:** A pasta `arquivosDesafios` antes do ataque.
-    ![Arquivos originais]
-    <img src="./assets/demo_ransomware_1.png" width="200" alt="img 1">
+    <img src="./assets/demo_ransomware_1.png" width="200" alt="Arquivos originais">
 
 2.  **Execução do `encrypt`:** O script confirma a geração da chave e a criptografia.
-    ![Execução do script encrypt]
-    <img src="./assets/demo_ransomware_2.png" width="200" alt="img 1">
+    <img src="./assets/demo_ransomware_2.png" width="200" alt="Execução do script encrypt">
 
 3.  **Arquivos Criptografados:** Os arquivos `.txt` agora estão com conteúdo ilegível.
-    ![Arquivos criptografados]
-    <img src="./assets/demo_ransomware_3.png" width="200" alt="img 1">
+    <img src="./assets/demo_ransomware_3.png" width="200" alt="Arquivos criptografados">
 
 4.  **Nota de Resgate:** O arquivo `LEIA_ME_RESGATE.txt` é criado na pasta.
-    ![Nota de resgate]
-    <img src="./assets/demo_ransomware_4.png" width="200" alt="img 1">
+    <img src="./assets/demo_ransomware_4.png" width="200" alt="Nota de resgate">
 
 5.  **Execução do `decrypt`:** O script de "resgate" é executado usando a `mykey.key`.
-    ![Execução do script decrypt]
-    <img src="./assets/demo_ransomware_5.png" width="200" alt="img 1">
+    <img src="./assets/demo_ransomware_5.png" width="200" alt="Execução do script decrypt">
 
-6.  **Arquivos Recuperados:** Os arquivos na pasta `arquivosDesafios` voltam ao estado original.
-    ![Arquivos recuperados]
-    <img src="./assets/demo_ransomware_6.png" width="200" alt="img 1">
+6.  **Arquivos Recuperados:** Os arquivos na pasta `arquivosDesafios` voltam ao seu estado original.
+    <img src="./assets/demo_ransomware_6.png" width="200" alt="Arquivos recuperados">
 
 
 ## 7. 🛡️ Análise Didática: A Mentalidade de Defesa (Blue Team)
