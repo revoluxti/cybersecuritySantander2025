@@ -143,33 +143,33 @@ A estrutura de arquivos foi organizada para demonstrar profissionalismo e boas p
 
 ### 6.1. Keylogger em Ação
 
-1.  **Execução do Script:** O terminal mostra o script em modo de escuta e a confirmação de conexão SMTP.
+1.  **Execução do Script:** O terminal mostra o script em modo de escuta e a confirmação de conexão SMTP.<br>
     <img src="./assets/demo_keylogger_1.png" width="200" alt="Execução do Keylogger">
 
-2.  **Geração do Log Local:** O arquivo `log.txt` é preenchido com as teclas capturadas.
+2.  **Geração do Log Local:** O arquivo `log.txt` é preenchido com as teclas capturadas.<br>
     <img src="./assets/demo_keylogger_2.png" width="200" alt="Log local do Keylogger">
 
-3.  **Exfiltração por E-mail:** O e-mail de "ataque" chega na caixa de entrada do destinatário.
+3.  **Exfiltração por E-mail:** O e-mail de "ataque" chega na caixa de entrada do destinatário. <br>
     <img src="./assets/demo_keylogger_3.png" width="200" alt="E-mail de exfiltração">
 
 ### 6.2. Ransomware em Ação
 
-1.  **Arquivos Originais:** A pasta `arquivosDesafios` antes do ataque.
+1.  **Arquivos Originais:** A pasta `arquivosDesafios` antes do ataque. <br>
     <img src="./assets/demo_ransomware_1.png" width="200" alt="Arquivos originais">
 
-2.  **Execução do `encrypt`:** O script confirma a geração da chave e a criptografia.
-    <img src="./assets/demo_ransomware_2.png" width="200" alt="Execução do script encrypt">
+2.  **Execução do `encrypt`:** O script confirma a geração da chave e a criptografia.<br>
+    <img src="./assets/demo_ransomware_2.png" width="200" alt="Execução do script encrypt"> 
 
-3.  **Arquivos Criptografados:** Os arquivos `.txt` agora estão com conteúdo ilegível.
-    <img src="./assets/demo_ransomware_3.png" width="200" alt="Arquivos criptografados">
+3.  **Arquivos Criptografados:** Os arquivos `.txt` agora estão com conteúdo ilegível.<br>
+    <img src="./assets/demo_ransomware_3.png" width="200" alt="Arquivos criptografados"> 
 
-4.  **Nota de Resgate:** O arquivo `LEIA_ME_RESGATE.txt` é criado na pasta.
-    <img src="./assets/demo_ransomware_4.png" width="200" alt="Nota de resgate">
+4.  **Nota de Resgate:** O arquivo `LEIA_ME_RESGATE.txt` é criado na pasta. <br>
+    <img src="./assets/demo_ransomware_4.png" width="200" alt="Nota de resgate"> 
 
-5.  **Execução do `decrypt`:** O script de "resgate" é executado usando a `mykey.key`.
+5.  **Execução do `decrypt`:** O script de "resgate" é executado usando a `mykey.key`. <br>
     <img src="./assets/demo_ransomware_5.png" width="200" alt="Execução do script decrypt">
 
-6.  **Arquivos Recuperados:** Os arquivos na pasta `arquivosDesafios` voltam ao seu estado original.
+6.  **Arquivos Recuperados:** Os arquivos na pasta `arquivosDesafios` voltam ao seu estado original.  <br>
     <img src="./assets/demo_ransomware_6.png" width="200" alt="Arquivos recuperados">
 
 
