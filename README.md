@@ -213,7 +213,7 @@ Esta é a seção mais importante. O que aprendemos ao construir esses scripts?
 Projeto desenvolvido com dedicação para o desafio Santander Cybersecurity 2025.
 
 <p>
-  <strong>Revoluxti (Seu Nome)</strong>
+  <strong>Revoluxti (LUCAS DE OLIVEIRA SANTOS)</strong>
   <br>
   <a href="https://linkedin.com/in/revoluxti">LinkedIn</a> | 
   <a href="https://github.com/revoluxti">GitHub</a>
